@@ -1,3 +1,3 @@
-<img src="logoBanner.jpg">
+<img src="cold, smooth & tasty. (2).png">
 
 
