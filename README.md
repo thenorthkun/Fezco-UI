@@ -1,3 +1,3 @@
-<img src="cold, smooth & tasty. (2).png">
+<img src="assets/cold, smooth & tasty..png">
 
 
