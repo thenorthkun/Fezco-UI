@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --mint-green: #03fc96;
+    --black: #000000;
+    --off-white: #f3f4f6;
+
+    --mint-green-hover: #1fee98;
+    --off-white-hover:  #e9e9e9;
+}
+
+nav{
+    padding: 1.5rem 1rem;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.version{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.documentation{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.hero-container{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.hero-content{
+    text-align: center;
+    margin: auto;
+    max-width: 550px;
+    padding-top: 2.5rem;
+}
+
+.hero-heading{
+    font-size: 5.0rem;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    line-height: 2rem;
+}
+
+.colored-text{
+    color: var(--mint-green);
+}
+
+.hero-sub-heading{
+    font-size: 2.5rem;
+    letter-spacing: -0.07em;
+    padding: 0rem 0 1rem;
+    line-height: 0rem;
+}
+
+.hero-intro{
+    font-size: 1.17rem;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 535px;
+    box-sizing: border-box;
+}
+
+.start-btn{
+    font-weight: 600;
+    background-color: var(--mint-green);
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    color: var(--black);
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1.5px 4px;
+    transition: all .3s ease-in-out;
+}
+
+.start-btn:hover{
+    background-color: var(--mint-green-hover);
+}
+
+.github-btn{
+    font-weight: 600;
+    background-color: var(--off-white);
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    color: var(--black);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1.5px 4px;
+    transition: all .3s ease-in-out;
+
+}
+
+.github-btn:hover{
+    background-color: var(--off-white-hover);
+}
