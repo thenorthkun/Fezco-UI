@@ -1,0 +1,45 @@
+@import url("../../core.css");
+
+nav{
+    padding: 1rem 1rem;
+    background-color: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 2rem;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.nav-logo a{
+    color: var(--black);
+    background-color: var(--mint-green);
+    padding: 2px 6px;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem; 
+}
+
+.nav-links a{
+    color: var(--white);
+    padding: 0.7rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 550;
+    /* letter-spacing: 0.05em; */
+    
+}
