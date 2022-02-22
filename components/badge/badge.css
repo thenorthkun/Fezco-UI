@@ -1,0 +1,60 @@
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: var(--white);
+  }
+  
+  .avatar-xl {
+    width: 6rem;
+    height: 6rem;
+  }
+  .avatar-lg {
+    width: 5rem;
+    height: 5rem;
+  }
+  .avatar-md {
+    width: 4rem;
+    height: 4rem;
+  }
+  .avatar-sm {
+    width: 3rem;
+    height: 3rem;
+  }
+  .avatar-xs {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+.badge{
+    position: relative;
+    width: fit-content;
+}
+
+.badge-on-avatar{
+    position: absolute;
+    height: 24%;
+    width: 24%;
+    right: 4%;
+    bottom: 2%;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+}
+
+.online{
+    background-color: var(--mint-green);
+}
+
+.offline{
+    background-color: var(--grey);
+}
+
+.idle{
+    background-color: #f97316;
+
+}
+
+.dnd{
+    background-color: red;
+}
