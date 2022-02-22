@@ -1,0 +1,40 @@
+/* @import url(/design.css); */
+
+.sidebar{
+    margin-top: 2.5rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: sticky;
+    background-color: var(--white);
+    height: 63.5vh;
+    overflow-y: auto;
+    /* transition: all 0.3s ease-out; */
+}
+
+.sidebar-list{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0;
+}
+
+.sidebar-list li{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.65rem;
+    cursor: pointer;
+    padding-left: 3.5rem;
+    flex-grow: 1; 
+}
+
+.sidebar-list a:link{
+    color: var(--black);
+
+}
+
+.sidebar-list .sidebar-heading{
+    font-size: 1.1rem;
+    font-weight: 550;
+}
