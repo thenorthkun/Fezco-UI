@@ -9,25 +9,43 @@
 .avatar-xl {
   width: 6rem;
   height: 6rem;
+  font-size: 3rem;
+
 }
 .avatar-lg {
   width: 5rem;
   height: 5rem;
+  font-size: 2rem;
+
 }
 .avatar-md {
   width: 4rem;
   height: 4rem;
+  font-size: 1.5rem;
+
 }
 .avatar-sm {
   width: 3rem;
   height: 3rem;
+  font-size: 1rem;
+
 }
 .avatar-xs {
   width: 2rem;
   height: 2rem;
+  font-size: 1rem;
+
 }
 
 .avatar-square{
     border-radius: 8px;
-    border: 1px solid var(black);
+    border: 1px solid var(--black); 
+}
+
+.avatar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mint-green);
+    color: var(--white);
 }
