@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../design.css">
     <link rel="stylesheet" href="../../sidebar.css">
     <link rel="stylesheet" href="card.css">
-    <link rel="icon" href="assets\puzzle icon.png" />
+    <link rel="icon" href="/assets/puzzle icon.png" />
 
     <title>Fezco | Component library</title>
 </head>
@@ -84,13 +84,17 @@
         <div class="doc-content">
             <div class="content-wrapper">
                 <div class="content-title "> Card<span class="colored-text">.</span></div>
-                <div class="content-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <div class="content-subtitle">A card is a group of related information, generally comprising of an
+                    Image, headers and footers, a wide variety <br>of content, and sometimes also has a call to action
+                    button. There are various types like basic vertical/horizontal card <br>card with badge, card with
+                    text
+                    overlay, card with dismiss and text only card.
                 </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Text only card</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> This card has a title & paragraph text which can be used as a simple text
+                    content card.
                 </div>
 
                 <div class="example-div">
@@ -105,12 +109,18 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=672.1749889850616&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-only-card%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh3%253E%250A%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%2520%2520"
+                        style="width: 672px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Vertical Card</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> Vertical cards are the most common type of cards seen used across
+                    multiple platforms.<br> You add a badge using <strong>card-badge</strong> class inside a div.
                 </div>
 
                 <div class="example-div">
@@ -170,12 +180,17 @@
 
 
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=827.0249869823456&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%253Cimg%2520src%253D%2522%252Fassets%252FKM-mercurial.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-floating-icon%2522%253E%250A%2520%2520%2520%2520%253Cbox-icon%2520name%253D%27heart%27%253E%253C%252Fbox-icon%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ENike%2520Mercurial%25208%2520%27KM%27%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EFootball%2520boot%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-after-discount%2522%253E%25E2%2582%25B94599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before-discount%2522%253E%25E2%2582%25B97999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E60%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-box%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520bag%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%250A%2520%2520"
+                        style="width: 827px; height: 716px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Horizontal Card</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> Similar content structure just with a horizontal alignment.
                 </div>
 
                 <div class="example-div">
@@ -206,12 +221,17 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=827.0249869823456&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%253Cimg%2520src%253D%2522%252Fassets%252Fphantom-turf.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ENike%2520Mercurial%25208%2520%27KM%27%2520Turf%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EFootball%2520boot%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-after-discount%2522%253E%25E2%2582%25B96599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before-discount%2522%253E%25E2%2582%25B98999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E30%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520bag%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESave%2520to%2520wishlist%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%250A%250A%2520%2520"
+                        style="width: 827px; height: 694px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Card with dismiss</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> Card with Dismiss includes a icon on top right corner which acts as a dismiss button.
                 </div>
 
                 <div class="example-div">
@@ -229,12 +249,17 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=827.0249869823456&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-only-card%2520card-dismiss%2522%253E%250A%253Ch3%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh3%253E%250A%253Cbutton%2520class%253D%2522dismiss-btn%2522%253E%250A%253Cbox-icon%2520name%253D%27x%27%253E%253C%252Fbox-icon%253E%250A%253C%252Fbutton%253E%250A%250A%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522card-text%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520typesetting%2520industry.%250A%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%250A%2520%2520"
+                        style="width: 827px; height: 461px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Card with text overlay</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> This card has a text overlay on top of it used for indication of an unavailable card.
                 </div>
 
                 <div class="example-div">
@@ -266,6 +291,13 @@
 
                     </div>
 
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=827.0249869823456&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252FKM-mercurial.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-floating-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbox-icon%2520name%253D%27heart%27%253E%253C%252Fbox-icon%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ENike%2520Mercurial%25208%2520%27KM%27%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EFootball%2520boot%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-after-discount%2522%253E%25E2%2582%25B94599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before-discount%2522%253E%25E2%2582%25B97999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E60%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-box%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520bag%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522text-overlay%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%2520%2520"
+                        style="width: 827px; height: 822px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
 
             </div>
