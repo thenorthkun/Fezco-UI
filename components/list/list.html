@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../design.css">
     <link rel="stylesheet" href="../../sidebar.css">
     <link rel="stylesheet" href="list.css">
-    <link rel="icon" href="assets\puzzle icon.png" />
+    <link rel="icon" href="/assets/puzzle icon.png" />
 
     <title>Fezco | Component library</title>
 </head>
@@ -61,7 +61,7 @@
                 <a href="/components/button/button.html">
                     <li class="component">Button</li>
                 </a>
-                <a href="#">
+                <a href="/components/card/card.html">
                     <li class="component">Card</li>
                 </a>
                 <a href="/components/image/image.html">
@@ -73,7 +73,7 @@
                 <a href="/components/list/list.html">
                     <li class="component active">List</li>
                 </a>
-                <a href="#">
+                <a href="/components/modal/modal.html">
                     <li class="component">Modal</li>
                 </a>
 
@@ -84,13 +84,12 @@
         <div class="doc-content">
             <div class="content-wrapper">
                 <div class="content-title "> Lists<span class="colored-text">.</span></div>
-                <div class="content-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <div class="content-subtitle">Lists are a handy component for displaying a series of content used for handling & order of text on a website
                 </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Default List</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle">
                 </div>
 
                 <div class="example-div">
@@ -106,12 +105,15 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=687.1312517523766&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%253Cdiv%2520class%253D%2522list-title%2522%253EList%2520Heading%253C%252Fdiv%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EItem%2520One%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Two%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Three%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Four%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Five%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                        style="width: 686px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Stacked list</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> Stacked on top of each other with icons to add more depth. Used in various notification formats on most of the websites.
                 </div>
 
                 <div class="example-div">
@@ -135,12 +137,17 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=713.8249976634979&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-stacked%2522%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-items%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fassets%252FDiversity-Avatars-Avatars-Andy-warhol.svg%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522content%2522%253E%2520Andy%2520liked%2520your%2520post.%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification-time%2522%253EJust%2520now%253C%252Fspan%253E%250A%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522stacked-items%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fassets%252FDiversity-Avatars-Avatars-Dave-grohl.svg%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522content%2522%253E%2520Dave%2520started%2520following%2520you.%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cspan%2520class%253D%2522notification-time%2522%253E6h%253C%252Fspan%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%250A"
+                        style="width: 747px; height: 673px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Spaced list</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> Horizontal lists with even spacing for displaying menus, nav bars etc.
                 </div>
 
                 <div class="example-div">
@@ -151,6 +158,13 @@
                         <li>Accessories</li>
                     </ul>
                 </div>
+
+                <div class="code-snippet"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=746.7937472462654&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-spaced%2522%253E%250A%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%253Cli%253EBrands%253C%252Fli%253E%250A%2520%2520%253Cli%253EClothing%253C%252Fli%253E%250A%2520%2520%253Cli%253EAccessories%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%250A"
+                        style="width: 747px; height: 333px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+
 
             </div>
         </div>
