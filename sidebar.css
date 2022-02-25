@@ -1,13 +1,10 @@
-@import url(/design.css);
-
 .sidebar{
     margin-top: 2.5rem;
     grid-column-start: 1;
     grid-column-end: 2;
     position: sticky;
     background-color: var(--white);
-    height: 63.5vh;
-    overflow-y: auto;
+    max-height: 63.5vh;
 }
 
 .sidebar-list{
@@ -36,9 +33,4 @@
 .sidebar-list .sidebar-heading{
     font-size: 1.1rem;
     font-weight: 550;
-}
-
-.active{
-    color: var(--mint-green);
-    border: 1px solid var(--mint-green);
 }
