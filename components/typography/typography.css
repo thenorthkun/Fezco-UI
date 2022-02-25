@@ -1,0 +1,74 @@
+.typo-box-preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 3rem;
+    gap: 10px;
+    border-radius: 4px;
+    min-height: 100px;
+    padding: 1rem;
+    background-color: #f5f7f9;
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px,
+        rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.h3{
+    font-weight: 800;
+}
+
+.h4{
+    font-weight: 800;
+
+}
+
+
+.text-xl{
+    font-size: 3rem;
+}
+.text-lg{
+    font-size: 2rem;
+
+}
+.text-md{
+    font-size: 1.5rem;
+}
+.text-nm{
+    font-size: 1rem;
+}
+.text-sm{
+    font-size: 0.875rem;
+}
+.text-xs{
+    font-size: 0.75rem;
+}
+
+.fw-800{
+    font-weight: 800;
+}
+.fw-700{
+    font-weight: 650;
+}
+.fw-600{
+    font-weight: 500;
+
+}
+.fw-500{
+    font-weight: 400;
+
+}
+.fw-400{
+    font-weight: 300;
+
+}
