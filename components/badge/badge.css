@@ -58,3 +58,21 @@
 .dnd{
     background-color: red;
 }
+
+
+.badge-on-icon .badge-number {
+  min-width: 1.25rem;
+  height: 1.25rem;
+  top: -0.5rem;
+  right: -0.7rem;
+}
+
+.badge-number{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--mint-green);
+  font-size: 0.8rem;
+}

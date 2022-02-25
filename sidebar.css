@@ -1,4 +1,4 @@
-/* @import url(/design.css); */
+@import url(/design.css);
 
 .sidebar{
     margin-top: 2.5rem;
@@ -8,7 +8,6 @@
     background-color: var(--white);
     height: 63.5vh;
     overflow-y: auto;
-    /* transition: all 0.3s ease-out; */
 }
 
 .sidebar-list{
@@ -37,4 +36,9 @@
 .sidebar-list .sidebar-heading{
     font-size: 1.1rem;
     font-weight: 550;
+}
+
+.active{
+    color: var(--mint-green);
+    border: 1px solid var(--mint-green);
 }

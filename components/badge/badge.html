@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../design.css">
     <link rel="stylesheet" href="../../sidebar.css">
     <link rel="stylesheet" href="badge.css">
-    <link rel="icon" href="assets\puzzle icon.png" />
+    <link rel="icon" href="/assets/puzzle icon.png" />
 
     <title>Fezco | Component library</title>
 </head>
@@ -53,7 +53,7 @@
                     <li class="component">Avatar</li>
                 </a>
                 <a href="/components/badge/badge.html">
-                    <li class="component">Badge</li>
+                    <li class="component active">Badge</li>
                 </a>
                 <a href="/components/button/button.html">
                     <li class="component">Button</li>
@@ -81,13 +81,15 @@
         <div class="doc-content">
             <div class="content-wrapper">
                 <div class="content-title "> Badge<span class="colored-text">.</span></div>
-                <div class="content-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <div class="content-subtitle"> Badges are used to display status information, cart item count,
+                    notification count etc.<br>These are small circles, positioned either at top-right or bottom-right
+                    of the parent component.
                 </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Badge on avatar</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.
+                <div class="content-subtitle"> The badge on avatar is available in 4 different statuses -
+                    <strong>online, offline, Idle & DND</strong>.
                 </div>
 
                 <div class="example-div">
@@ -120,25 +122,32 @@
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=711.8374978303909&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522...%2522%2520alt%253D%2522suarez%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520online%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522...%2522%2520alt%253D%2522andy%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520offline%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522...%2522%2520alt%253D%2522dave%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520idle%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522...%2522%2520alt%253D%2522obama%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520dnd%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A"
+                        style="width: 712px; height: 628px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
                 <div class="divider"></div>
 
                 <div class="content-title2"> Badge Sizes</div>
-                <div class="content-subtitle"> Lorem Ipsum is simply dummy text of the printing and typesetting
+                <div class="content-subtitle"> Badges can vary in different sizes like small, large, extra large etc.
                     industry.
                 </div>
 
                 <div class="example-div">
-                    
 
                     <div class="badge">
-                        <img class="avatar avatar-md" src="/assets/Diversity-Avatars-Avatars-Andy-warhol.svg" alt="andy">
+                        <img class="avatar avatar-md" src="/assets/Diversity-Avatars-Avatars-Andy-warhol.svg"
+                            alt="andy">
                         <span class="badge-on-avatar offline"></span>
 
                     </div>
 
                     <div class="badge">
-                        <img class="avatar avatar-xl" src="/assets/Diversity-Avatars-Avatars-Luis-suarez.svg" alt="suarez">
+                        <img class="avatar avatar-xl" src="/assets/Diversity-Avatars-Avatars-Luis-suarez.svg"
+                            alt="suarez">
                         <span class="badge-on-avatar online"></span>
 
                     </div>
@@ -150,17 +159,56 @@
                     </div>
 
                     <div class="badge">
-                        <img class="avatar avatar-sm" src="/assets/Diversity-Avatars-Avatars-Barack-obama.svg" alt="obama">
+                        <img class="avatar avatar-sm" src="/assets/Diversity-Avatars-Avatars-Barack-obama.svg"
+                            alt="obama">
                         <span class="badge-on-avatar dnd"></span>
 
                     </div>
 
-               
-
 
                 </div>
 
-                <div class="code-snippet"></div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=711.8374978303909&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522...%2522%2520alt%253D%2522andy%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522...%2522%2520alt%253D%2522suarez%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522...%2522%2520alt%253D%2522dave%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520idle%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522...%2522%2520alt%253D%2522obama%2522%253E%250A%253Cspan%2520class%253D%2522badge-on-avatar%2520dnd%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A"
+                        style="width: 712px; height: 628px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="divider"></div>
+
+                <div class="content-title2"> Badge on icons</div>
+                <div class="content-subtitle"> Generally used for notification count, these badges overlay over common
+                    used icons.
+                </div>
+
+                <div class="example-div">
+                    <div class="badge badge-on-icon">
+                        <box-icon name='bell'></box-icon>
+                        <span class="badge-number">4</span>
+                    </div>
+                    <div class="badge badge-on-icon">
+                        <box-icon name='message'></box-icon>
+                        <span class="badge-number">6</span>
+                    </div>
+                    <div class="badge badge-on-icon">
+                        <box-icon name='cart'></box-icon>
+                        <span class="badge-number">2</span>
+                    </div>
+                    <div class="badge badge-on-icon">
+                        <box-icon name='heart'></box-icon>
+                        <span class="badge-number">10</span>
+                    </div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=711.8374978303909&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2520badge-on-icon%2522%253E%250A%253Cbox-icon%2520name%253D%27bell%27%253E%253C%252Fbox-icon%253E%250A%2520%253Cspan%2520class%253D%2522badge-number%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge%2520badge-on-icon%2522%253E%250A%253Cbox-icon%2520name%253D%27message%27%253E%253C%252Fbox-icon%253E%250A%253Cspan%2520class%253D%2522badge-number%2522%253E6%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge%2520badge-on-icon%2522%253E%250A%253Cbox-icon%2520name%253D%27cart%27%253E%253C%252Fbox-icon%253E%250A%253Cspan%2520class%253D%2522badge-number%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge%2520badge-on-icon%2522%253E%250A%253Cbox-icon%2520name%253D%27heart%27%253E%253C%252Fbox-icon%253E%250A%253Cspan%2520class%253D%2522badge-number%2522%253E10%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A"
+                        style="width: 712px; height: 628px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
 
             </div>
@@ -169,7 +217,8 @@
 
 
     </main>
-    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js%22%3E"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
 
 </body>
 
