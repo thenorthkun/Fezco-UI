@@ -1,0 +1,19 @@
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.dino-emoji{
+    font-size: 10rem;
+}
+
+.message{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 4rem;
+    margin-bottom: -2rem;
+}
