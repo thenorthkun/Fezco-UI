@@ -33,11 +33,9 @@ nav{
 }
 
 .nav-links a{
-    color: var(--white);
+    color: var(--bg-white);
     padding: 0.7rem;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 550;
-    /* letter-spacing: 0.05em; */
-    
+    font-weight: 550;    
 }

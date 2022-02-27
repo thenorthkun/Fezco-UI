@@ -29,9 +29,12 @@ nav{
 .documentation{
     font-size: 1.2rem;
     font-weight: 600;
-    color: black;
+}
+
+.documentation a{
+    color: var(--black);
     text-decoration: none;
-    
+
 }
 
 .hero-container{
