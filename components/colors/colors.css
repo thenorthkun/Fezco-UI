@@ -1,0 +1,35 @@
+.pallete{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pallete div{
+    width: 10rem;
+    height: 10rem;
+    padding: 0.5rem;
+    font-weight: 550;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.primary{
+    background-color: var(--mint-green);
+}
+
+.secondary{
+    background-color: var(--light-blue);
+}
+
+.background{
+    background-color: var(--grey);
+}
+
+.error{
+    background-color: var(--red);
+}
+
+.warning{
+    background-color: var(--yellow);
+}
