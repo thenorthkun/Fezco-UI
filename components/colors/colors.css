@@ -15,21 +15,21 @@
 }
 
 .primary{
-    background-color: #03fc96;
+    background-color: var(--mint-green);
 }
 
 .secondary{
-    background-color: #a3cdf4;
+    background-color: var(--light-blue);
 }
 
 .background{
-    background-color: #cdcdcd;
+    background-color: var(--grey);
 }
 
 .error{
-    background-color: #f44336;
+    background-color: var(--red);
 }
 
 .warning{
-    background-color: #f1f15d;
+    background-color: var(--yellow);
 }
