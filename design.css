@@ -113,6 +113,13 @@
   padding: 1rem;
 }
 
+.content-title3{
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  padding: 1rem;
+}
+
 .content-subtitle {
   line-height: 24px;
   margin-bottom: 1.5rem;

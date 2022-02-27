@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="../../design.css">
+    <link rel="stylesheet" href="../../sidebar.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="icon" href="/assets/puzzle icon.png" />
+
+    <title>Fezco | Component library</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="../../index.html">FEZ</a>
+
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav-docs" href="#">Docs</a></li>
+            <li><a href="https://github.com/thenorthkun/Fezco-UI">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <main class="doc-container">
+        <div class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-heading">Getting Started</li>
+
+                <a href="#">
+                    <li class="component">Introduction</li>
+                </a>
+                <a href="#">
+                    <li class="component">Colors</li>
+                </a>
+                <a href="#">
+                    <li class="component">Typography</li>
+                </a>
+                <a href="#">
+                    <li class="component">Contributing</li>
+                </a>
+                <li class="sidebar-heading">Components</li>
+                <a href="/components/alert/alert.html">
+                    <li class="component">Alert</li>
+                </a>
+                <a href="/components/avatar/avatar.html">
+                    <li class="component">Avatar</li>
+                </a>
+                <a href="/components/badge/badge.html">
+                    <li class="component">Badge</li>
+                </a>
+                <a href="/components/button/button.html">
+                    <li class="component">Button</li>
+                </a>
+                <a href="/components/card/card.html">
+                    <li class="component">Card</li>
+                </a>
+                <a href="/components/image/image.html">
+                    <li class="component">Image</li>
+                </a>
+                <a href="/components/input/input.html">
+                    <li class="component active">Input</li>
+                </a>
+                <a href="/components/list/list.html">
+                    <li class="component">List</li>
+                </a>
+                <a href="/components/modal/modal.html">
+                    <li class="component">Modal</li>
+                </a>
+
+            </ul>
+
+        </div>
+
+        <div class="doc-content">
+            <div class="content-wrapper">
+                <div class="content-title "> Input<span class="colored-text">.</span></div>
+                <div class="content-subtitle">Inputs can be used to interact with user & gather information/data in
+                    tabular form.
+                </div>
+                <div class="divider"></div>
+
+                <div class="content-title2"> Standard Inputs</div>
+                <div class="content-subtitle"> Consisting of Labels & Input fields, these standard input boxes are
+                    widely used in login pages.
+                </div>
+
+                <div class="example-div">
+                    <div class="input-div">
+                        <label class="input-label">Username</label>
+                        <input type="text" class="input-box" required="">
+                    </div>
+                    <div class="input-div">
+                        <label class="input-label">Password</label>
+                        <input type="password" class="input-box" required="">
+                    </div>
+
+
+
+                </div>
+
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=672.1749889850616&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%253EUsername%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2522%2520required%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522input-div%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2522%2520required%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520"
+                        style="width: 672px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="divider"></div>
+
+                <div class="content-title2"> Input Validation</div>
+                <div class="content-subtitle"> Imput with error style & a validation message.
+                </div>
+
+                <div class="example-div">
+                    <div class="input-div input-error">
+                        <label class="input-label">Password</label>
+                        <input type="password" class="input-box" required="">
+                        <div class="error-message">Wrong Password. Try again.</div>
+
+                    </div>
+
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=672.1749889850616&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-div%2520input-error%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2522%2520required%253D%2522%2522%253E%250A%253Cdiv%2520class%253D%2522error-message%2522%253EWrong%2520Password.%2520Try%2520again.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%2520%2520"
+                        style="width: 672px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+</body>
+
+</html>
