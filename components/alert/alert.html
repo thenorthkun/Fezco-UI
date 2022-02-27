@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="../../design.css">
+    <link rel="stylesheet" href="../../sidebar.css">
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="icon" href="/assets/puzzle icon.png" />
+    <title>Fezco | Component library</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="../../index.html">FEZ</a>
+
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav-docs" href="#">Docs</a></li>
+            <li><a href="https://github.com/thenorthkun/Fezco-UI">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <main class="doc-container">
+        <div class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-heading">Getting Started</li>
+                <a href="#">
+                    <li class="component">Introduction</li>
+                </a>
+                <a href="#">
+                    <li class="component">Colors</li>
+                </a>
+                <a href="#">
+                    <li class="component">Typography</li>
+                </a>
+                <a href="#">
+                    <li class="component">Contributing</li>
+                </a>
+                <li class="sidebar-heading">Components</li>
+                <a href="/components/alert/alert.html">
+                    <li class="component active">Alert</li>
+                </a>
+                <a href="/components/avatar/avatar.html">
+                    <li class="component">Avatar</li>
+                </a>
+                <a href="#">
+                    <li class="component">Badge</li>
+                </a>
+                <a href="#">
+                    <li class="component">Button</li>
+                </a>
+                <a href="#">
+                    <li class="component">Card</li>
+                </a>
+                <a href="#">
+                    <li class="component">Image</li>
+                </a>
+                <a href="#">
+                    <li class="component">Input</li>
+                </a>
+                <a href="#">
+                    <li class="component">List</li>
+                </a>
+                <a href="#">
+                    <li class="component">Modal</li>
+                </a>
+
+            </ul>
+        </div>
+
+        <div class="doc-content">
+            <div class="content-wrapper">
+                <div class="content-title "> Alert<span class="colored-text">.</span></div>
+                <div class="content-subtitle">Alerts are used to communicate important information by attracting user's
+                    attention without interrupting the user's flow.<br> Fezco provides variety of alerts including simple
+                    alerts, alerts with icons and outlined alerts.</div>
+
+                <div class="divider"></div>
+
+                <div class="content-title2"> Simple Alert</div>
+                <div class="content-subtitle"> These are basic alert boxes with various background colors.
+                </div>
+
+                <div class="example-div">
+                    <div class="alert alert-primary">This is a simple primary alert !</div>
+                    <div class="alert alert-secondary">This is a simple secondary alert !</div>
+                    <div class="alert alert-warning">This is a simple warning alert !</div>
+                    <div class="alert alert-error">This is a simple error alert !</div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253EThis%2520is%2520a%2520simple%2520primary%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253EThis%2520is%2520a%2520simple%2520secondary%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EThis%2520is%2520a%2520simple%2520warning%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253EThis%2520is%2520a%2520simple%2520error%2520alert%2520%21%253C%252Fdiv%253E%250A"
+                        style="width: 797px; height: 291px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="content-title2"> Outline Alert</div>
+                <div class="content-subtitle"> Just like simple alerts, these boxes contain colored outlines instead.
+                </div>
+
+                <div class="example-div">
+                    <div class="alert primary-outline">This is a simple primary alert !</div>
+                    <div class="alert secondary-outline">This is a simple secondary alert !</div>
+                    <div class="alert warning-outline">This is a simple warning alert !</div>
+                    <div class="alert error-outline">This is a simple error alert !</div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=54px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary-outline%2522%253EThis%2520is%2520a%2520simple%2520primary%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520secondary-outline%2522%253EThis%2520is%2520a%2520simple%2520secondary%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning-outline%2522%253EThis%2520is%2520a%2520simple%2520warning%2520alert%2520%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520error-outline%2522%253EThis%2520is%2520a%2520simple%2520error%2520alert%2520%21%253C%252Fdiv%253E%250A"
+                        style="width: 805px; height: 287px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="content-title2"> Alert with icon</div>
+                <div class="content-subtitle"> Alerts with indicating icons.
+                </div>
+
+                <div class="example-div">
+                    <div class="alert alert-primary">
+                        <box-icon class="icon" name='check-circle'></box-icon>
+                        This is a simple primary alert !
+                    </div>
+                    <div class="alert alert-secondary">
+                        <box-icon class="icon" name='info-circle'></box-icon>
+                        This is a simple secondary alert !
+                    </div>
+                    <div class="alert alert-warning">
+                        <box-icon class="icon" name='error'></box-icon>
+                        This is a simple warning alert !
+                    </div>
+                    <div class="alert alert-error">
+                        <box-icon class="icon" name='error-circle'></box-icon>
+                        This is a simple error alert !
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=54px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%253Cbox-icon%2520class%253D%2522icon%2522%2520name%253D%27check-circle%27%253E%253C%252Fbox-icon%253E%250AThis%2520is%2520a%2520simple%2520primary%2520alert%2520%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%253Cbox-icon%2520class%253D%2522icon%2522%2520name%253D%27info-circle%27%253E%253C%252Fbox-icon%253E%250AThis%2520is%2520a%2520simple%2520secondary%2520alert%2520%21%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%253Cbox-icon%2520class%253D%2522icon%2522%2520name%253D%27error%27%253E%253C%252Fbox-icon%253E%250AThis%2520is%2520a%2520simple%2520warning%2520alert%2520%21%250A%2520%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%253Cbox-icon%2520class%253D%2522icon%2522%2520name%253D%27error-circle%27%253E%253C%252Fbox-icon%253E%250AThis%2520is%2520a%2520simple%2520error%2520alert%2520%21%250A%2520%2520%253C%252Fdiv%253E%250A"
+                        style="width: 608px; height: 606px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+</body>
+
+</html>
