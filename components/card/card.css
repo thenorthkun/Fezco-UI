@@ -1,10 +1,10 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 19rem;
     height: max-content;
     border-radius: 4px;
-    background: var(--white);
+    background: var(--bg-white);
     border: 1px solid var(--off-grey);
     position: relative;
 }
@@ -87,7 +87,7 @@
 
 .discount{
     padding-left: 5px;
-    color: red;
+    color: var(--red);
 }
 
 .btn-box{
@@ -125,7 +125,7 @@
 
 .card-horizontal {
     width: 100%;
-    max-width: 500px;
+    max-width: 35rem;
     display: flex;
     flex-direction: row;
 }

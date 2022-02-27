@@ -5,7 +5,7 @@
     grid-column-start: 1;
     grid-column-end: 2;
     position: sticky;
-    background-color: var(--white);
+    background-color: var(--bg-white);
     height: 63.5vh;
     overflow-y: auto;
 }
