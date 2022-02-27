@@ -3,7 +3,7 @@
     height: 5rem;
     border-radius: 100%;
     object-fit: cover;
-    background-color: var(--white);
+    background-color: var(--bg-white);
   }
   
   .avatar-xl {
@@ -39,7 +39,6 @@
     right: 4%;
     bottom: 2%;
     border-radius: 50%;
-    border: 2px solid var(--white);
 }
 
 .online{
@@ -51,12 +50,12 @@
 }
 
 .idle{
-    background-color: #f97316;
+    background-color: var(--orange);
 
 }
 
 .dnd{
-    background-color: red;
+    background-color: var(--red);
 }
 
 
