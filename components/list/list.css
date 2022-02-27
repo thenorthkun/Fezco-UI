@@ -1,8 +1,8 @@
 .list{
     list-style-type: none;
     width: 70%;
-    max-width: 430px;
-    background-color: var(--white);
+    max-width: 30rem;
+    background-color: var(--bg-white);
     margin: 10px;
 }
 
@@ -55,7 +55,7 @@ ul{
     display: flex;
     padding: 1rem;
     gap: 1rem;
-    background-color: white;
+    background-color: var(--bg-white);
     border: 1px solid var(--black);
 }
 

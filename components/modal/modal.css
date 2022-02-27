@@ -37,17 +37,19 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var(--bg-white);
     margin: auto;
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 25rem;
     border-radius: 4px;
     padding: 1.2rem;
     box-shadow: rgb(0 0 0 / 24%) 0px 10px 30px -14px;
     
 }
-
+.modal-message{
+    text-align: center;
+}
 .modal-close-btn{
     position: absolute;
     top: 0.5rem;
