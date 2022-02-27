@@ -13,19 +13,19 @@
   width: 60%;
   padding: 0.6rem;
   margin: 4px 0;
-  background-color: var(--white);
+  background-color: var(--bg-white);
   outline: none;
   border-radius: 2px;
 }
 
 .input-div.input-error .input-label {
-  color: red;
+  color: var(--red);
 }
 
 .input-div.input-error .error-message {
-  color: red;
+  color: var(--red);
 }
 
 .input-div.input-error .input-box {
-  border: 1px solid red;
+  border: 1px solid var(--red);
 }
