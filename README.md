@@ -36,7 +36,8 @@ The following components are delivered by the component library -
 
 ## Screenshots 📸
 ![Cards](./assets/cardSS.png)
-<br/>
+<br />
+<br />
 
 ## Demo 📽️
 ![Demo](./assets/demo.gif)
