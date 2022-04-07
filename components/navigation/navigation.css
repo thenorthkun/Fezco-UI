@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 1rem;
+    padding-right: 2rem;
+    position: absolute;
+    z-index: 5;
+    background-color: var(--bg-white);
+    border: 1px solid;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    color: var(--black);
+  }
+  
+  .colored-text {
+    color: var(--mint-green);
+  }
+  
+  .badge{
+    position: relative;
+    width: fit-content;
+    margin-right: 1rem;
+  }
+  
+  .badge i{
+    background-color: var(--bg-white);
+  }
+  .badge-on-icon .badge-number {
+    min-width: 1.25rem;
+    height: 1.25rem;
+    top: -0.7rem;
+    right: -0.8rem;
+  }
+  
+  .badge-number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+    background-color: var(--mint-green);
+    font-size: 0.8rem;
+  }
+  
+  .icon{
+    color: var(--bg-white);
+  }
+  
+  .nav-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .list-spaced{
+    display: flex;
+    padding: 0.875rem;
+    gap: 1rem;
+    background-color: var(--bg-white);
+    border: 1px solid var(--black);
+  }
+  .list-spaced a:hover{
+    cursor: pointer;
+    color: var(--mint-green);
+    transition: all 0.25s ease-in-out
+  }
