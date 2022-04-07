@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/utilities/design.css">
+    <link rel="stylesheet" href="/utilities/navbar.css">
+    <link rel="stylesheet" href="/utilities/sidebar.css">
+    <link rel="stylesheet" href="rating.css">
+    <link rel="icon" href="/assets/puzzle icon.png" />
+
+    <title>Fezco | Component library</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="../../index.html">FEZ</a>
+
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav-docs" href="#">Docs</a></li>
+            <li><a href="https://github.com/thenorthkun/Fezco-UI">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <main class="doc-container">
+        <div class="sidebar">
+            <ul class="sidebar-list">
+
+                <li class="sidebar-heading">Getting Started</li>
+
+                <a href="/get-started/intro/intro.html">
+                    <li class="component">Introduction</li>
+                </a>
+                <a href="/get-started/colors/colors.html">
+                    <li class="component">Colors</li>
+                </a>
+                <a href="/get-started/typography/typography.html">
+                    <li class="component">Typography</li>
+                </a>
+                <a href="/get-started/contributing/contri.html">
+                    <li class="component">Contributing</li>
+                </a>
+
+                <li class="sidebar-heading">Components</li>
+
+                <a href="/components/alert/alert.html">
+                    <li class="component">Alert</li>
+                </a>
+                <a href="/components/avatar/avatar.html">
+                    <li class="component">Avatar</li>
+                </a>
+                <a href="/components/badge/badge.html">
+                    <li class="component">Badge</li>
+                </a>
+                <a href="/components/button/button.html">
+                    <li class="component">Button</li>
+                </a>
+                <a href="/components/card/card.html">
+                    <li class="component">Card</li>
+                </a>
+                <a href="/components/image/image.html">
+                    <li class="component">Image</li>
+                </a>
+                <a href="/components/input/input.html">
+                    <li class="component">Input</li>
+                </a>
+                <a href="/components/list/list.html">
+                    <li class="component">List</li>
+                </a>
+                <a href="/components/modal/modal.html">
+                    <li class="component">Modal</li>
+                </a>
+                <a href="/components/rating/rating.html">
+                    <li class="component active">Rating</li>
+                </a>
+                <a href="/components/navigation/navigation.html">
+                    <li class="component">Navigation</li>
+                </a>
+
+            </ul>
+
+        </div>
+
+        <div class="doc-content">
+            <div class="content-wrapper">
+                <div class="content-title "> Rating<span class="colored-text">.</span></div>
+                <div class="content-subtitle">Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.
+
+                </div>
+                <div class="divider"></div>
+
+                <div class="content-title2"> Basic rating</div>
+                <div class="content-subtitle">Such type of rating can be created by adding <strong>"rating"</strong> to a span class. Commonly used in ecom websites.
+                </div>
+
+                <div class="example-div">
+                    <span class="rating">
+                        <label>
+                            <input class="rating-input" type="checkbox" checked="" disabled="">
+                            <box-icon name='star' type='solid' color='#03fc96' ></box-icon>
+                        </label>
+                        <label>
+                            <input class="rating-input" type="checkbox" checked="" disabled="">
+                            <box-icon name='star' type='solid' color='#03fc96' ></box-icon>
+                        </label>
+                        <label>
+                            <input class="rating-input" type="checkbox" checked="" disabled="">
+                            <box-icon name='star' type='solid' color='#03fc96' ></box-icon>
+                        </label>
+                        <label>
+                            <input class="rating-input" type="checkbox" checked="" disabled="">
+                            <box-icon name='star' type='solid' color='#03fc96' ></box-icon>
+                        </label>
+                        <label>
+                            <input class="rating-input" type="checkbox" disabled="">
+                            <box-icon name='star' color='#03fc96' ></box-icon>
+                        </label>
+                        </span>
+                </div>
+
+                <div class="code-snippet">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&width=827.0249869823456&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=54px&ph=57px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522rating%2522%253E%250A%253Clabel%253E%250A%253Cinput%2520class%253D%2522rating-input%2522%2520type%253D%2522checkbox%2522%2520checked%253D%2522%2522%2520disabled%253D%2522%2522%253E%250A%253Cbox-icon%2520name%253D%27star%27%2520type%253D%27solid%27%2520color%253D%27%252303fc96%27%2520%253E%253C%252Fbox-icon%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%253Cinput%2520class%253D%2522rating-input%2522%2520type%253D%2522checkbox%2522%2520checked%253D%2522%2522%2520disabled%253D%2522%2522%253E%250A%253Cbox-icon%2520name%253D%27star%27%2520type%253D%27solid%27%2520color%253D%27%252303fc96%27%2520%253E%253C%252Fbox-icon%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%253Cinput%2520class%253D%2522rating-input%2522%2520type%253D%2522checkbox%2522%2520checked%253D%2522%2522%2520disabled%253D%2522%2522%253E%250A%253Cbox-icon%2520name%253D%27star%27%2520type%253D%27solid%27%2520color%253D%27%252303fc96%27%2520%253E%253C%252Fbox-icon%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%253Cinput%2520class%253D%2522rating-input%2522%2520type%253D%2522checkbox%2522%2520checked%253D%2522%2522%2520disabled%253D%2522%2522%253E%250A%253Cbox-icon%2520name%253D%27star%27%2520type%253D%27solid%27%2520color%253D%27%252303fc96%27%2520%253E%253C%252Fbox-icon%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%253Cinput%2520class%253D%2522rating-input%2522%2520type%253D%2522checkbox%2522%2520disabled%253D%2522%2522%253E%250A%253Cbox-icon%2520name%253D%27star%27%2520color%253D%27%252303fc96%27%2520%253E%253C%252Fbox-icon%253E%250A%253C%252Flabel%253E%250A%253C%252Fspan%253E"
+                    style="width: 827px; height: 648px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin"></iframe>
+    
+                </div>
+                <div class="divider"></div>
+            </div>
+
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+</body>
+
+</html>

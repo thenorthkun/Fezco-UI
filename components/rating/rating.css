@@ -1,0 +1,9 @@
+.rating-input {
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.rating{
+    cursor: pointer;
+}
