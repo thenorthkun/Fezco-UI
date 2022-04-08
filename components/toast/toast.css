@@ -1,0 +1,40 @@
+.toast{
+    display: none;
+    position: fixed;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    background-color: var(--mint-green);
+    z-index: 999;
+}
+
+.toast-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.close-btn{
+    cursor: pointer;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.baseline{
+    display: flex;
+    bottom: 6rem;
+    left: 50%;
+}
+
+.top-right{
+    display: flex;
+    top: 8rem;
+    right: 8rem;
+}
+
+.bottom-right{
+    display: flex;
+    bottom: 6rem;
+    right: 8rem;
+}
